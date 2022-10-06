@@ -190,7 +190,7 @@ export default {
             _posY +
             'px; left: ' +
             posX +
-            'px;"><div class="speech-bubble"><div class="share-inside">Click Go</div></div></div>'
+            'px;"><div class="speech-bubble"><div class="share-inside">ClickToGo</div></div></div>'
         )
 
         if (document.contains(document.querySelector('.share-inside'))) {
