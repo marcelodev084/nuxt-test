@@ -144,6 +144,7 @@ export default {
       }, 100)
     },
     async handleSelectedTxt() {
+      console.log('~~~~~handleSelectedTxt~~~~~')
       const _id = Date.now()
       await this.$axios.$put(`/api/selected-txt/`, {
         [`${_id}`]: this.selectedTxt,
